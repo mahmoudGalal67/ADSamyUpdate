@@ -4191,3 +4191,337 @@ section.positions .position {
 }
 
 /* Jobs_page */
+
+/* poadCast-page */
+
+section.proadcastBanner {
+  padding: 0 2%;
+}
+
+section.proadcastBanner .wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 18px;
+}
+
+section.proadcastBanner .wrapper .left,
+section.proadcastBanner .wrapper .right {
+  flex: 1;
+}
+section.proadcastBanner .wrapper .left {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  padding: 2% 0;
+}
+section.proadcastBanner .wrapper .left h3 {
+  font-family: Inter;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #0d4b74;
+}
+section.proadcastBanner .wrapper .left p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #0d4b74;
+}
+
+section.proadcastBanner .wrapper .left p span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+section.proadcastBanner .wrapper .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.BackgroundColorContainer_backgroundColorContainer__YZSQ7 {
+  background-color: rgb(29 90 171);
+}
+
+@media (max-width: 1080px) {
+  section.proadcastBanner .wrapper {
+    flex-direction: column;
+  }
+  section.proadcastBanner .wrapper .left {
+    gap: 24px;
+  }
+  section.proadcastBanner .wrapper .left h3 {
+    font-size: 36px;
+  }
+}
+
+section.latestPoadCast {
+  background-color: #172b43;
+  color: white;
+}
+
+input.form-control,
+button.dropdown-toggle {
+  outline: none;
+}
+
+.btn.show {
+  border-color: #86b7fe !important ;
+  border-width: 2px !important;
+}
+
+section.all-poadcast {
+  padding: 0 8%;
+}
+
+.col-md-10 {
+  padding: 0 8%;
+}
+
+input.form-control {
+  border-right: 1px solid #cddeff !important;
+}
+
+section.all-poadcast .col.dropdown {
+  border-right: 1px solid #cddeff !important;
+}
+
+.search-bar {
+  padding: 10px;
+  box-shadow: 0px 2.5px 18px hsla(0, 0%, 0%, 0.17);
+  border: #d2d4da;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.border {
+  border-color: #cddeff !important;
+  border-radius: 14px;
+  border-width: 2px !important;
+}
+.border-0 {
+  border: 0 !important;
+}
+
+section.all-poadcast .container h2 {
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+  color: #0d0d0d;
+}
+
+section.all-poadcast .container2 {
+  margin: 85px 0;
+}
+
+section.all-poadcast .container2 .wrapper {
+  flex-direction: column;
+  gap: 36px;
+}
+
+section.all-poadcast .container2 .wrapper .item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 85px;
+  align-items: center;
+}
+
+section.all-poadcast .container2 .wrapper .item .left,
+section.all-poadcast .container2 .wrapper .item .right {
+  flex: 1;
+}
+
+section.all-poadcast .container2 .wrapper .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+section.all-poadcast .container2 .wrapper span {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #ffffff;
+  background-color: rgb(205, 204, 220);
+  color: #0d0d0d;
+  width: max-content;
+  padding: 8px;
+}
+section.all-poadcast .container2 .wrapper .item .right {
+  width: 100%;
+}
+section.all-poadcast .container2 .wrapper .item .right iframe {
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  section.all-poadcast .container2 .wrapper .item {
+    flex-direction: column;
+  }
+  section.all-poadcast .container2 .wrapper .item {
+    gap: 25px;
+  }
+}
+
+section.proadcast-gallary {
+  padding: 0 4%;
+  margin: 85px 0;
+}
+
+section.proadcast-gallary .wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+section.proadcast-gallary .wrapper .item {
+  position: relative;
+  max-width: 500px;
+}
+
+section.proadcast-gallary .wrapper .item img {
+  width: 100%;
+}
+
+section.proadcast-gallary .wrapper .item .overlay {
+  background: rgb(0, 0, 0, 0.3);
+  position: absolute;
+  inset: 0;
+}
+
+section.proadcast-gallary .wrapper .item .title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  z-index: 100;
+}
+
+@media (max-width: 500px) {
+  section.proadcast-gallary .wrapper .item .title {
+    font-size: 24px;
+  }
+}
+
+/* poadCast-page */
+
+/* caseStudy-page */
+
+section.overview {
+  padding: 6%;
+}
+
+section.overview h3 {
+  font-family: Inter;
+  font-size: 29.25px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #12295d;
+}
+
+section.overview p {
+  font-family: Inter;
+  font-size: 14.75px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #05051e;
+}
+
+section.rahtio {
+  padding: 6%;
+  background-color: #172b43;
+}
+
+section.rahtio .wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+section.rahtio .wrapper .number {
+  font-family: Inter;
+  font-size: 40.05px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 18px;
+
+  color: white;
+}
+
+section.rahtio .wrapper p {
+  font-family: Inter;
+  font-size: 14.5px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+
+section.feature {
+  padding: 4% 8%;
+}
+
+section.feature .item {
+  margin-bottom: 48px;
+}
+
+section.feature .item h3 {
+  font-family: Inter;
+  font-size: 40.56px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #12295d;
+  margin-bottom: 28px;
+}
+section.feature .item p {
+  font-family: Inter;
+  font-size: 14.63px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #05051e;
+}
+
+/* caseStudy-page */
