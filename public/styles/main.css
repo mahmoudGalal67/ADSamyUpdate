@@ -367,16 +367,22 @@ section.we-are img {
 }
 
 @media (max-width: 900px) {
+  section.we-are h3 {
+    font-size: 28px;
+    line-height: normal;
+  }
   section.we-are {
     padding: 8 0;
     text-align: center;
   }
   section.we-are p {
     margin: auto;
+    font-size: 15px;
   }
   section.we-are .lg-p {
     margin: auto;
     width: 100%;
+    font-size: 14px;
   }
   section.we-are h3 {
     margin: auto;
@@ -1426,6 +1432,7 @@ main .banner span {
 
 .get-in-touch .info .calling .item {
   display: flex;
+  margin: 12px 0;
   gap: 5px;
   align-items: center;
 }
@@ -2415,6 +2422,13 @@ h1.page-title {
   .courses-slider .details h2 {
     font-size: 28px;
     line-height: 30px;
+  }
+  h1.page-title {
+    font-size: 32px;
+    padding: 5px;
+  }
+  section.our-latest-videos h2 {
+    font-size: 34px !important;
   }
 }
 
@@ -4524,4 +4538,186 @@ section.feature .item p {
   color: #05051e;
 }
 
+section.caseGallary .wrapper .item {
+  transition: all 0.3s ease-in;
+}
+
+section.caseGallary .wrapper .item .details {
+  position: absolute;
+  bottom: 24%;
+  left: 6%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+section.caseGallary .wrapper .item .details p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+section.caseGallary .wrapper .item .details a {
+  padding: 2px;
+  border-bottom: 2px solid rgb(195, 81, 73);
+  font-size: 12px;
+  color: white;
+}
+
+section.caseGallary .wrapper .item:hover {
+  transform: scale(1.6);
+}
+
+section.caseGallary .wrapper .item:hover .details {
+  opacity: 1;
+}
+
+section.caseGallary .wrapper .item img {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  section.aboutUS-cards {
+    section.caseGallary .wrapper .item .details a {
+      font-size: 9px;
+    }
+    section.caseGallary .wrapper .item .details p {
+      font-size: 10px;
+    }
+  }
+}
+
 /* caseStudy-page */
+
+/* AboutUs-page */
+
+section.aboutUS-cards {
+  background: linear-gradient(90deg, #f4f4f4 50%, #ffffff 50%);
+}
+
+section.aboutUS-cards .wrapper {
+  display: flex;
+}
+
+section.aboutUS-cards .wrapper .item {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  flex: 1;
+  padding: 4%;
+}
+section.aboutUS-cards .wrapper .item a {
+  padding: 8px;
+  border: 1px solid #4b92db;
+  font-family: Inter;
+  font-size: 15.25px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #4b92db;
+  width: fit-content;
+}
+
+section.aboutUS-cards .wrapper .item p {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: #212529;
+}
+
+@media (max-width: 800px) {
+  section.aboutUS-cards {
+    background: linear-gradient(180deg, #f4f4f4 50%, #ffffff 50%);
+  }
+  section.aboutUS-cards .wrapper {
+    flex-direction: column;
+  }
+}
+
+section.principals {
+  padding: 4% 16%;
+  background: #172b43;
+}
+section.principals span {
+  font-family: Inter;
+  font-size: 13.34px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+section.principals h3 {
+  font-family: Inter;
+  font-size: 32.63px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: white;
+  margin-bottom: 45px;
+}
+section.principals .wrapper {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section.principals .wrapper .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 24px 8px;
+  color: white;
+  position: relative;
+  background-color: #25456c;
+  height: 380px;
+  min-width: 300px;
+  flex: 1;
+}
+
+section.principals .wrapper .item img {
+  position: absolute;
+  top: 26px;
+  left: 14px;
+  width: 40px;
+}
+
+section.principals .wrapper .item .number {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+section.principals .line {
+  width: 2px;
+  height: 80px;
+  background-color: white;
+  position: absolute;
+  right: 11px;
+  top: 48px;
+}
+section.principals .wrapper .item .title {
+  font-family: Inter;
+  font-size: 28.2px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+}
+section.principals .wrapper .item p {
+  font-family: Inter;
+  font-size: 14.61px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  section.principals {
+    padding: 4%;
+  }
+}
+
+/* AboutUs-page */

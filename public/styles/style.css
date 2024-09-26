@@ -69,7 +69,7 @@ nav .navbar {
   height: 100px;
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: -50px;
   transform: translateY(-50%);
   display: none;
 }
@@ -173,7 +173,7 @@ nav .navbar .links li:hover .Specialties-sub-menu {
     display: block;
     position: absolute;
     top: 60%;
-    right: 25px;
+    right: -30px;
     transform: translateY(-50%);
   }
   nav .navbar .links li.logo {
