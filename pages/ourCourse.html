@@ -533,6 +533,23 @@
             },
           },
         });
+        $(".owl-carousel").owlCarousel({
+          autoplay: true,
+          dots: true,
+          nav: false,
+          dotsEach: 1,
+          items: 1,
+          loop: true,
+          lazyLoad: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            900: {
+              items: 3,
+            },
+          },
+        });
       });
     </script>
     <!-- carousel -->

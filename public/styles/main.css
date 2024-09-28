@@ -4732,6 +4732,7 @@ section.principals .wrapper .item img {
 
 section.principals .wrapper .item .number {
   position: absolute;
+  transform: rotate(90deg);
   top: 4px;
   right: 4px;
 }
@@ -4862,3 +4863,286 @@ section.aboutUs-map .wrapper a {
 }
 
 /* AboutUs-page */
+
+/* Post-page */
+
+section.single-post .wrapper {
+  display: flex;
+  gap: 28px;
+}
+section.single-post .left {
+  width: 70%;
+}
+section.single-post .left .top > img,
+section.single-post .left .top > .containerr img {
+  width: 100%;
+  object-fit: cover;
+}
+section.single-post .left .top,
+section.single-post .left .bottom {
+  box-shadow: 0px 4px 16px 0px #0000001a;
+}
+section.single-post .left .top .containerr {
+  padding: 2%;
+}
+section.single-post .left .top .containerr h1 {
+  font-family: EB Garamond;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: #535353;
+}
+
+section.single-post .left .top .containerr .post-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+section.single-post .left .top .containerr .post-info .item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+section.single-post .left .top .containerr .post-info .item span,
+section.single-post .left .top .containerr .post-info .item a {
+  font-family: EB Garamond;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #21252999;
+}
+section.single-post .left .top .containerr .post-info .item img {
+  width: 15px;
+}
+section.single-post .left .top .containerr p {
+  font-family: EB Garamond;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #212529;
+}
+section.single-post .left .top .containerr .info-box {
+  padding: 2% 0;
+  background: #2125290d;
+  margin: 25px 0;
+}
+section.single-post .left .top .containerr .info-box p {
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 35.2px;
+  text-align: center;
+  padding: 2% 4%;
+
+  color: #212529;
+  border-left: 2px solid #465367;
+}
+section.single-post .left .top .containerr h3 {
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: left;
+  color: #535353;
+  margin: 25px 0;
+}
+
+section.single-post .right {
+  width: 35%;
+}
+section.single-post .bottom {
+  padding: 2%;
+  margin: 45px 0;
+}
+section.single-post .bottom form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+section.single-post .bottom form h3 {
+  font-family: EB Garamond;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: left;
+  color: #535353;
+  margin: 0;
+}
+section.single-post .bottom form .wrapper {
+  display: flex;
+  gap: 16px;
+}
+section.single-post .bottom form input,
+section.single-post .bottom form textarea {
+  padding: 12px;
+  font-family: EB Garamond;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 18.27px;
+  color: #535353;
+  border: 1px solid #2125294d;
+  border-radius: 4px;
+  flex: 1;
+}
+section.single-post .bottom form textarea {
+  min-height: 200px;
+}
+section.single-post .bottom form input::placeholder {
+  font-family: EB Garamond;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.27px;
+  text-align: left;
+  color: #535353;
+}
+section.single-post .bottom form button {
+  padding: 18px 28px;
+  background: #465367;
+  border-radius: 4px;
+  font-family: EB Garamond;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  align-self: center;
+  border: none;
+}
+
+section.single-post .right .user-box,
+section.single-post .right .search-box,
+section.single-post .right .recent-box,
+section.single-post .right .tags-box {
+  padding: 4%;
+  border: 1px solid #2125291a;
+  background: #21252905;
+  margin-bottom: 32px;
+  border-radius: 5px;
+}
+
+section.single-post .right .user-box .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+section.single-post .right .user-box h2 {
+  font-family: EB Garamond;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  color: #212529cc;
+}
+section.single-post .right .user-box .wrapper > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+section.single-post .right .user-box .socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+section.single-post .right p {
+  font-family: EB Garamond;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #212529b2;
+  margin: 12px 0;
+}
+section.single-post .right h3 {
+  font-family: EB Garamond;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #535353;
+  padding: 0 16px;
+  border-left: 6px solid #465367;
+  margin-bottom: 25px;
+}
+section.single-post .right .search-box .search-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  justify-content: space-between;
+  border: 1px solid #21252940;
+  border-radius: 50px;
+  gap: 8px;
+}
+section.single-post .right .search-box .search-wrapper input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  outline: none;
+}
+
+section.single-post .right .recent-box .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+section.single-post .right .recent-box .wrapper .item {
+  display: flex;
+  gap: 18px;
+}
+section.single-post .right .recent-box .wrapper .item > img {
+  width: 120px;
+}
+section.single-post .right .recent-box .wrapper .item .details h2 {
+  font-family: EB Garamond;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  color: #212529;
+}
+section.single-post .right .tags-box .wrapper {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+section.single-post .right .tags-box .wrapper .tag {
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #2125290f;
+  color: #6b6a6a;
+}
+
+@media (max-width: 900px) {
+  section.single-post > .wrapper {
+    flex-direction: column;
+  }
+  section.single-post .bottom form .wrapper {
+    flex-direction: column;
+  }
+  section.single-post .left .top .containerr h1 {
+    font-size: 20px;
+  }
+  section.single-post .wrapper .left,
+  section.single-post .wrapper .right {
+    width: 100%;
+  }
+  section.single-post .left .top .containerr .info-box p {
+    font-size: 16px;
+  }
+  section.single-post .right .tags-box .wrapper .tag {
+    padding: 6px 12px;
+  }
+}
+
+/* Post-page */
